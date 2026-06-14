@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vectra Capital | IA y Análisis de Datos Financiero</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles-additions.css">
+    <!-- Fuente moderna desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="LOGO.png" alt="Vectra Capital">
+            </div>
+            <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#portafolio">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Herramientas de IA para el Sector Financiero y Regulatorio</h1>
+            <p>Vectra Capital: Soluciones inteligentes de análisis de datos para optimizar el cumplimiento normativo y la toma de decisiones en México.</p>
+            <a href="#contacto" class="btn">Solicitar Consulta</a>
+        </div>
+        <div class="grid-animation">
+            <!-- La animación de fondo se maneja en CSS -->
+        </div>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2>Servicios</h2>
+            <p class="subtitle">Especialistas en IA, datos y cumplimiento normativo para instituciones financieras.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Análisis de Datos Regulatorio</h3>
+                    <p>Pipeline ETL robusto para ingestion de reportes regulatorios, validación XBRL/CSV, normalización y generación de KPIs conformes a CNBV; incluye pruebas de regresión y alertas automatizadas.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Modelos Predictivos de IA</h3>
+                    <p>Desarrollo y producción de modelos supervisados y no supervisados (PyTorch/TensorFlow), validación con K-fold, calibración y métricas reguladas (AUC, Gini, Brier).</p>
+                </div>
+                <div class="service-card">
+                    <h3>Integración Empresarial</h3>
+                    <p>APIs REST/GraphQL con autenticación OAuth2, orquestación con Airflow/Prefect, conectores a bases OLTP (Postgres, SQL Server) y mensajería con Kafka para integración en tiempo real.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Análisis Regulatorio & Econometría</h3>
+                    <p>Estimaciones de efectos causales (DiD, 2SLS, panel data, GEE), series temporales y modelos estructurales para análisis de políticas regulatorias y reporte estadístico reproducible.</p>
+                </div>
+                <div class="service-card">
+                    <h3>IA a Escala: RAG, LLMs y MLOps</h3>
+                    <p>Implementación de RAG con vectores y retriever-architectures (FAISS, Milvus, Pinecone), fine-tuning de LLMs, prompt engineering, despliegue con FastAPI y orquestación en Kubernetes.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Gobernanza y Calidad de Datos</h3>
+                    <p>Catálogos de datos, linaje, validaciones automáticas, reglas de calidad (Great Expectations/dbt), y políticas de acceso y retención para cumplimiento y auditoría.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Detección de Fraude y AML</h3>
+                    <p>Sistemas híbridos (rules + ML) para scoring de riesgo, análisis de redes de transacciones, embeddings de comportamiento y alertas con dashboards y modelos explicables (SHAP).</p>
+                </div>
+                <div class="service-card">
+                    <h3>Modelos de Riesgo de Crédito</h3>
+                    <p>Construcción de modelos de PD/LGD/EAD, validación regulatoria, backtesting, stress-testing y pipelines reproducibles para reportes de capital económico.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Backtesting y Validación</h3>
+                    <p>Frameworks de backtesting, pruebas de estabilidad temporal, análisis de drift, monitoreo de performance y retraining automático con alertas CI/CD.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Ingeniería de Features & ETL</h3>
+                    <p>Diseño de features escalables, operaciones de ventana, agregaciones en tiempo real y offline, storage en Parquet/DeltaLake y orquestación con Airflow/dbt.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Visualización & Dashboards</h3>
+                    <p>Dashboards interactivos (PowerBI, Looker, Grafana) con paneles para vigilancia regulatoria, validaciones de modelos y KPIs financieros en tiempo real.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Optimización Cuantitativa de Portafolios</h3>
+                    <p>Modelos basados en media-varianza, optimización con restricciones regulatorias, simulación Monte Carlo y optimizadores convexos para asignación robusta de activos.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Simulación y Stress Testing</h3>
+                    <p>Escenarios macro-financieros, simulaciones de liquidez y solvencia, y reportes automatizados para pruebas de resiliencia bajo marcos regulatorios.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Privacidad y PETs</h3>
+                    <p>Evaluación de riesgo de privacidad, técnicas de anonymization, differential privacy y uso de privacy-enhancing technologies para análisis conforme a GDPR/LFPDPPP.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Automatización de Reportes Regulatorios</h3>
+                    <p>Generación reproducible de reportes (XBRL, CSV), validación automatizada, pipeline de entrega segura y versionado para auditoría y cumplimiento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portafolio" class="portafolio">
+        <div class="container">
+            <h2>Repositorios Destacados</h2>
+            <p class="subtitle">Seleccionados automáticamente por actividad, estrellas y relevancia en GitHub.</p>
+            
+            <div id="github-projects" class="projects-grid">
+                <!-- Los proyectos se cargarán aquí dinámicamente con JS -->
+                <p class="loading">Cargando repositorios...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="fundadores" class="fundadores">
+        <div class="container">
+            <h2>Nuestros Fundadores</h2>
+            <p class="subtitle">Expertos en IA, datos y regulación financiera en México.</p>
+            <div class="founders-grid">
+                <div class="founder-card">
+                    <div class="founder-avatar">LR</div>
+                    <h3>Luis Alberto Rueda Tapia</h3>
+                    <p class="founder-role">Líder Estratégico & IA</p>
+                    <p class="founder-bio">Especialista en arquitectura de soluciones de inteligencia artificial y estrategia tecnológica para el sector financiero regulado.</p>
+                    <a href="mailto:luis@vectracapital.com" class="founder-contact">luis@vectracapital.com</a>
+                </div>
+                <div class="founder-card">
+                    <div class="founder-avatar">AR</div>
+                    <h3>Alejandro Rodríguez Vega</h3>
+                    <p class="founder-role">Director de Datos</p>
+                    <p class="founder-bio">Experto en análisis predictivo, machine learning y cumplimiento regulatorio con experiencia en instituciones financieras.</p>
+                    <a href="mailto:alejandro@vectracapital.com" class="founder-contact">alejandro@vectracapital.com</a>
+                </div>
+                <div class="founder-card">
+                    <div class="founder-avatar">DG</div>
+                    <h3>Daniel Gutiérrez Dorantes</h3>
+                    <p class="founder-role">CTO & Desarrollo</p>
+                    <p class="founder-bio">Ingeniero en soluciones escalables, APIs financieras y automatización de procesos regulatorios.</p>
+                    <a href="mailto:daniel@vectracapital.com" class="founder-contact">daniel@vectracapital.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Colaboremos</h2>
+            <p>Vectra Capital con participación en CNBV, BBVA y WTO. Descubre cómo nuestras soluciones pueden transformar tu institución financiera.</p>
+            
+            <div class="contact-methods">
+                <a href="mailto:contacto@vectracapital.com" class="contact-btn contact-email">
+                    <span class="contact-icon">✉</span>
+                    <span>Enviar Correo</span>
+                </a>
+                <a href="https://wa.me/525555555555" target="_blank" class="contact-btn contact-whatsapp">
+                    <span class="contact-icon">💬</span>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="tel:+525555555555" class="contact-btn contact-phone">
+                    <span class="contact-icon">📞</span>
+                    <span>Llamada Directa</span>
+                </a>
+                <a href="https://linkedin.com/company/vectracapital" target="_blank" class="contact-btn contact-linkedin">
+                    <span class="contact-icon">💼</span>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vectra Capital. Todos los derechos reservados. | IA & Análisis de Datos Financiero en México</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

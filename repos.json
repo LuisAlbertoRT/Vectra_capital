@@ -1,0 +1,56 @@
+[
+  {
+    "name": "odysseus",
+    "html_url": "https://github.com/LuisAlbertoRT/odysseus",
+    "language": "N/A",
+    "forks_count": 0,
+    "updated_at": "2026-06-13T12:00:00Z",
+    "description": "Self-hosted AI workspace.",
+    "homepage": "https://pewdiepie-archdaemon.github.io/odysseus/"
+  },
+  {
+    "name": "Scoring-crediticio",
+    "html_url": "https://github.com/LuisAlbertoRT/Scoring-crediticio",
+    "language": "Python",
+    "forks_count": 0,
+    "updated_at": "2026-05-29T09:30:00Z",
+    "description": "Modelos y pipelines para scoring crediticio.",
+    "homepage": ""
+  },
+  {
+    "name": "vectra-website",
+    "html_url": "https://github.com/LuisAlbertoRT/vectra-website",
+    "language": "HTML/CSS",
+    "forks_count": 0,
+    "updated_at": "2026-06-14T19:00:00Z",
+    "description": "Página corporativa y portfolio de Vectra Capital.",
+    "homepage": ""
+  },
+  {
+    "name": "data-pipelines",
+    "html_url": "https://github.com/LuisAlbertoRT/data-pipelines",
+    "language": "SQL",
+    "forks_count": 1,
+    "updated_at": "2026-04-10T11:20:00Z",
+    "description": "Conectores y orquestación para ETL/ELT.",
+    "homepage": ""
+  },
+  {
+    "name": "fraude-detection",
+    "html_url": "https://github.com/LuisAlbertoRT/fraude-detection",
+    "language": "Python",
+    "forks_count": 2,
+    "updated_at": "2026-03-22T08:15:00Z",
+    "description": "Sistemas híbridos de reglas + ML para detección de fraude.",
+    "homepage": ""
+  },
+  {
+    "name": "econ-models",
+    "html_url": "https://github.com/LuisAlbertoRT/econ-models",
+    "language": "R",
+    "forks_count": 0,
+    "updated_at": "2025-12-01T14:00:00Z",
+    "description": "Modelos econométricos y experimentos para análisis de políticas.",
+    "homepage": ""
+  }
+]
