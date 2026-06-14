@@ -128,3 +128,35 @@
     font-weight: 600;
     font-size: 0.95rem;
 }
+
+/* Icon styles for service and project cards */
+.service-card {
+    position: relative;
+}
+
+.service-card .icon,
+.project-card .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+    background: linear-gradient(135deg, rgba(0,217,255,0.06), rgba(0,140,180,0.03));
+    border: 1px solid rgba(0,217,255,0.08);
+    color: var(--accent-primary);
+}
+
+.service-card h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.project-card h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

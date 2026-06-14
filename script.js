@@ -49,7 +49,7 @@ async function fetchGitHubProjects() {
             const card = document.createElement('div');
             card.className = 'project-card';
             card.innerHTML = `
-                <h3>${repo.name}</h3>
+                <h3><span class="icon">🗂️</span> ${repo.name}</h3>
                 <div class="project-meta">
                     <span>${repo.language || 'N/A'}</span>
                     <span>🍴 ${repo.forks_count || 0}</span>
