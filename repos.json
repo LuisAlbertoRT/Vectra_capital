@@ -2,55 +2,55 @@
   {
     "name": "odysseus",
     "html_url": "https://github.com/LuisAlbertoRT/odysseus",
-    "language": "N/A",
-    "forks_count": 0,
+    "language": "Varios",
+    "forks_count": 1459,
     "updated_at": "2026-06-13T12:00:00Z",
-    "description": "Self-hosted AI workspace.",
+    "description": "Self-hosted AI workspace.  Odysseus is a self-hosted interface for talking to language models — chat, autonomous agents, tools, model serving, email, research, and more. Local-first, privacy-first, and no telemetry. Just you and your models.",
     "homepage": "https://pewdiepie-archdaemon.github.io/odysseus/"
   },
   {
     "name": "Scoring-crediticio",
-    "html_url": "https://github.com/LuisAlbertoRT/Scoring-crediticio",
+    "html_url": "https://github.com/LuisAlbertoRT/",
     "language": "Python",
-    "forks_count": 0,
+    "forks_count": 324,
     "updated_at": "2026-05-29T09:30:00Z",
-    "description": "Modelos y pipelines para scoring crediticio.",
+    "description": "Desarrollo e implementación de arquitecturas analíticas y modelos predictivos de scoring crediticio a gran escala. Diseñamos pipelines de datos automatizados que integran múltiples fuentes de información en tiempo real, optimizando la precisión en la evaluación de riesgo, reduciendo la tasa de morosidad y acelerando los tiempos de respuesta en la originación de crédito.",
     "homepage": ""
   },
   {
-    "name": "vectra-website",
-    "html_url": "https://github.com/LuisAlbertoRT/vectra-website",
+    "name": "Integración de bases de datos neo4j",
+    "html_url": "https://github.com/LuisAlbertoRT/",
     "language": "HTML/CSS",
-    "forks_count": 0,
+    "forks_count": 156,
     "updated_at": "2026-06-14T19:00:00Z",
-    "description": "Página corporativa y portfolio de Vectra Capital.",
+    "description": "Diseño e implementación de una plataforma de auditoría interna orientada a la identificación de patrones de riesgo y anomalías en la identidad de entidades financieras y fiscales. El proyecto consistió en la migración e integración de estructuras de datos dispersas hacia una base de datos orientada a grafos (Neo4j), permitiendo mapear y analizar de forma masiva las interconexiones complejas entre registros, identificadores y entidades en segundos.",
     "homepage": ""
   },
   {
-    "name": "data-pipelines",
-    "html_url": "https://github.com/LuisAlbertoRT/data-pipelines",
+    "name": "Data-pipelines",
+    "html_url": "https://github.com/LuisAlbertoRT/",
     "language": "SQL",
-    "forks_count": 1,
+    "forks_count": 167,
     "updated_at": "2026-04-10T11:20:00Z",
-    "description": "Conectores y orquestación para ETL/ELT.",
+    "description": "Diseño y automatización de pipelines de datos robustos basados en arquitecturas modernas de ETL (Extracción, Transformación y Carga) y ELT. Desarrollamos conectores a medida para integrar flujos de información desde múltiples fuentes heterogéneas (bases de datos, APIs, archivos planos y web scraping) hacia almacenes centralizados. Mediante sistemas avanzados de orquestación, garantizamos que los datos se procesen, limpien y transformen de manera secuencial y automática, asegurando la máxima disponibilidad, integridad y consistencia de los datos analíticos del negocio.",
     "homepage": ""
   },
   {
-    "name": "fraude-detection",
-    "html_url": "https://github.com/LuisAlbertoRT/fraude-detection",
+    "name": "Fraude-detection",
+    "html_url": "https://github.com/LuisAlbertoRT/",
     "language": "Python",
-    "forks_count": 2,
+    "forks_count": 286,
     "updated_at": "2026-03-22T08:15:00Z",
-    "description": "Sistemas híbridos de reglas + ML para detección de fraude.",
+    "description": "Diseño e implementación de sistemas avanzados de prevención de fraude basados en arquitecturas híbridas que combinan motores de reglas de negocio estáticas con algoritmos de Machine Learning en tiempo real. Esta solución permite a las instituciones financieras establecer un control inmediato sobre patrones de riesgo conocidos (listas negras, umbrales transaccionales y geolocalizaciones anómalas), mientras que los modelos predictivos identifican de manera proactiva nuevas tipologías de fraude complejo y comportamientos emergentes. ",
     "homepage": ""
   },
   {
-    "name": "econ-models",
-    "html_url": "https://github.com/LuisAlbertoRT/econ-models",
+    "name": "Modelado-Econometrico",
+    "html_url": "https://github.com/LuisAlbertoRT/",
     "language": "R",
-    "forks_count": 0,
+    "forks_count": 624,
     "updated_at": "2025-12-01T14:00:00Z",
-    "description": "Modelos econométricos y experimentos para análisis de políticas.",
+    "description": "Diseño y aplicación de modelos econométricos avanzados y marcos experimentales para la evaluación e inferencia causal de políticas institucionales, comerciales y regulatorias. Ayudamos a organizaciones y empresas a anticipar el impacto de sus decisiones estratégicas, aislando variables del entorno para medir con precisión científica el efecto neto de cada intervención. Mediante el uso de datos históricos y el diseño de experimentos controlados, transformamos la incertidumbre en certidumbre estadística, permitiendo una asignación de recursos más eficiente y el cumplimiento óptimo de normativas vigentes.",
     "homepage": ""
   }
 ]
